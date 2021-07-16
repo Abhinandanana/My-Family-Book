@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+h1 {
+    font-size: 55px;
+}
+h4 {
+    font-size: 33px;
+}
+#family_member_image {
+    width: 100px;
+}
+#button1 {
+    width: 70px;
+    height: 30px;
+    font-size: larger;
+}

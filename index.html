@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title> MY FAMILY BOOK </title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+  <body>
+    <h1> MY FAMILY BOOK  </h1>
+    <img id="family_member_image" src="family-removebg-preview.png">
+    <h4 id="family_member_name"></h4>
+    <button id="button1" onclick= "update()"> NEXT </button>
+
+    <script>
+        var members= ["family-removebg-preview.png", "me-removebg-preview.png", "mom-removebg-preview.png", "dad-removebg-preview.png"];
+        
+        var names= ["My Family","Nandana Tiwari (ME)", "Ritu Prakash (MY MOTHER)", "Prakash Vir (MY FATHER)"];
+
+        var counter= 0;
+
+        function update()
+        {
+  document.getElementById("family_member_image").src= members[counter];
+  document.getElementById("family_member_name").innerHTML= names[counter];
+  counter++;
+  {
+  if(counter==4)
+    counter=0;
+    }
+  }
+    </script>
+  </body>
+</html>
